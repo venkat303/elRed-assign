@@ -1,0 +1,102 @@
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+}
+.pageHeader{
+    margin-left: 1vw;
+    font-weight: 700;
+    font-size: 3.5vmin;
+}
+.detailsContainer{
+    position: relative;
+    top:2vh;
+    padding: 1vh 1vw;
+    display: flex;
+}
+.logoContainer{
+    border: 2px solid rgb(241, 241, 248);
+    border-radius: 50%;
+    padding: 1.4vh 0.8vw;
+}
+.navLogo{
+    position: relative;
+    height: 5vh;
+}
+.nameContainer{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    position: relative;
+    left: 1vw;
+    font-size: 3.2vmin;
+    font-weight: 600;
+}
+.subHead{
+    position: relative;
+    left: 1vw;
+    font-size: 2.3vmin;
+    font-weight: 500;
+    color: rgb(164, 151, 151);
+}
+.verify{
+    margin-left: 4vw;
+    margin-top: 1vh;
+    display: flex;
+}
+.verify i{
+    color: lightgrey;
+}
+.verify a{
+    font-size: 2vmin;
+    margin-left: 0.5vw;
+    color: rgb(32, 135, 199);
+    text-underline-offset: 0.5vh;
+}
+.companyDesc{
+    width: 54vw;
+    height: 2vh;
+    margin-top: 3vh;
+    margin-left: 1vw;
+    display: flex;
+}
+.description{
+    width: 90%;
+    height: 6vh;
+    font-size: 2vmin;
+    color: rgb(164, 151, 151);
+}
+.descEdit{
+    font-size: 2vmin;
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+.contents{
+    margin-top: 6vh;
+}
+.contentsList{
+    position: absolute;
+    padding-bottom: 2vh;
+    margin-left: 1vw;
+    list-style: none;
+    display: flex;
+    border-bottom: 1px solid rgb(200, 200, 209);
+    width: 74vw;
+    font-size: 2.5vmin;
+
+}
+.contentsListItem{    
+    margin: 0 6vw 0 -2.5vw;
+}
+.listLink{
+    color: rgb(164, 151, 151);
+    text-decoration: none;
+}
+#contentActive{
+    font-weight: 500;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-underline-offset: 2.5vh;
+}

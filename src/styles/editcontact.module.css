@@ -1,0 +1,75 @@
+.editContact{
+    border-top-left-radius: 0.5rem;
+    height: 94vh;
+    width: 24vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    padding: 3vh 3vw 3vh 2vw;
+    background-color: white;
+    box-shadow: 0px 0px 8px 2px #9b9b99;
+}
+
+.header{
+    margin-left: 1vw;
+}
+.header i{
+    margin-right: 1vw;
+    cursor: pointer;
+}
+.header span{
+    font-size: 3vmin;
+    font-weight: 500;
+}
+.header>div{
+    margin: 1vh 0 1vh 0;
+    font-size: 2vmin;
+    color: darkgray;
+}
+.editForm{
+    width: 24vw;
+    height: 80vh;
+    position: absolute;
+    margin-top: 6vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.inputDiv{
+    margin: 2vh 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputDiv>label{
+    font-size: 2.5vmin;
+    margin-bottom: 0.5vh;
+}
+.inputDiv>button{
+    color: red;
+    background-color: rgb(251, 224, 224);
+    cursor: pointer;
+}
+.inputDiv>input{
+    padding: 0 0.5vw;
+    background-color: whitesmoke;
+}
+.inputDiv>input,button{
+    height: 5vh;
+    margin-bottom: 2vh;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.saveBtn{
+    position: absolute;
+    bottom: 0;
+    width: 24vw;
+    height: 5vh;
+    background-color: rgb(223, 37, 37);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}

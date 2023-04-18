@@ -1,0 +1,51 @@
+.contacts{
+    border-top-left-radius: 0.5rem;
+    height: 94vh;
+    width: 24vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    padding: 3vh 3vw 3vh 2vw;
+    background-color: white;
+    box-shadow: 0px 0px 8px 2px #9b9b99;
+}
+.saveBtn{
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+    width: 24vw;
+    height: 5vh;
+    background-color: rgb(223, 37, 37);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+}
+.list{
+    height: 74vh;
+    width: 25vw;
+    position: relative;
+    top: 2vh;
+    left: 0;
+    border-radius: 0.5rem;
+    overflow-y: scroll;
+}
+.list::-webkit-scrollbar{
+    display: none;
+}
+.head{
+    margin-left: 1vw;
+}
+.head i{
+    margin-right: 1vw;
+    cursor: pointer;
+}
+.head span{
+    font-size: 3vmin;
+    font-weight: 500;
+}
+.head>div{
+    margin: 1vh 0 1vh 0;
+    font-size: 2vmin;
+    color: darkgray;
+}

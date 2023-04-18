@@ -1,0 +1,102 @@
+.sidenav{
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 87.5vh;
+    width: 15vw;
+    background-color: white;
+    margin: 2.5vh 1vw 2vh 1vw;
+    border-radius: 1rem;
+    overflow-y: scroll; 
+}
+.sidenav::-webkit-scrollbar{
+    display: none;
+}
+.top{
+    position: relative;
+    top:2vh;
+    padding: 0.5vh 1vw;
+    display: flex;
+}
+.logoContainer{
+    border: 2px solid rgb(241, 241, 248);
+    border-radius: 50%;
+    padding: 1.4vh 0.8vw;
+}
+.navLogo{
+    position: relative;
+    height: 5vh;
+}
+.name{
+    position: relative;
+    left: 1vw;
+    top: 2vh;
+    font-size: 3vmin;
+    font-weight: 600;
+}
+.middle{
+    position: relative;
+    /* margin-top: 1vh; */
+    padding: 0 1vw; 
+}
+.menuList{
+    list-style: none;
+}
+.menuListItem{
+    padding: 1.5vh 1.3vw;
+    margin: 0.6vh 0.5vw;
+    margin-left: -3.2vw;
+    color: rgb(198, 198, 213);
+    font-size: 1.7vmin;
+    font-weight: 600;
+}
+.menuListItem:hover{
+    cursor: pointer;
+}
+.menuListItem i{
+    margin-left: -0.5vw;
+    padding-right: 0.5vw;
+}
+.bottom{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 10.8vw;
+    padding: 1vh 0.4vw;
+    border: 1px solid rgb(200, 200, 209);
+    border-radius: 0.5rem;
+    margin: 1vh 2vw 2vh 1.2vw;
+}
+.bottom i{
+    color: black;
+    margin: 1vh 0 0 1vh;
+    margin:auto;
+    font-size: 4vmin;
+    color:  rgb(200, 200, 209);
+}
+.help{
+    font-size: 2vmin;
+    margin-bottom: 1vh;
+    text-align: center;
+    font-weight: 700;
+}
+.helpContent{
+    font-size: 1.5vmin;
+    text-align: center;
+}
+.helpBtn{
+    padding: 0.5vh 0.5vw;
+    color: white;
+    background-color: black;
+    border-radius: 0.5rem;
+    margin: 1vh 1vw;
+    font-size: 1.5vmin;
+}
+#active{
+    font-size: 2vmin;
+    color: red;
+    background-color: rgb(247, 221, 221);
+    border-radius: 0.5rem;
+}

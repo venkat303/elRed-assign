@@ -1,0 +1,15 @@
+.home{
+    position: absolute;
+    left: 17vw;
+    height: 84.5vh;
+    width: 78vw;
+    background-color: white;
+    margin: 2.5vh 1vw 0 0;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem ;
+    padding: 3vh 2vw 2vh 2vw;
+    overflow-y: scroll;
+}
+.home::-webkit-scrollbar{
+    display: none;
+}

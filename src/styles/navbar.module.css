@@ -1,0 +1,92 @@
+.nav {
+   position: relative;
+    height: 6vh;
+    display: flex;
+    background: white;
+    padding: 1vh 2vw;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLogo{
+  position: relative;
+  height: 6vh;
+}
+.name{
+  position: relative;
+  top:-2vh;
+  font-size: 1.6vmin;
+  font-weight: 600;
+}
+.searchContainer{
+  margin-left: -18vw;
+  width: 30vw;
+  height: 5vh;
+  background-color:  rgb(241, 241, 248);
+  position: relative;
+  display: flex;
+  border-radius: 0.5rem;
+}
+.navSearch{
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 0.5rem;
+}
+.navSearch:focus {
+  outline: none;
+}
+#searchicon{
+  padding: 1vh;
+  color: #c4c6ca;
+}
+.rightNav{
+  padding-right: 2vw;
+  position: relative;
+  height: 5vh;
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.checkout{
+  height: 5vh;
+  padding: 0 0.9vw;
+  background-color: black;
+  border-radius: 0.5rem;
+  display: flex;
+}
+.checkout i{
+  margin-top: 0.8vh;
+  font-size: 3vmin;
+  color: white;
+}
+.checkout span{
+  margin-top: 0.8vh;
+  padding: 0 0.3vw;
+  font-size: 1.8vmin;
+  color: white;
+}
+.user{
+  display: flex;
+}
+.profilepic{
+  height: 4vh;
+  width: 2vw;
+  border-radius: 50%;
+  margin-right: 0.5vw;
+}
+.username{
+  position: relative;
+  top: 0.4vh;
+  font-size: 2.1vmin;
+  font-weight: 500;
+}
+.user i{
+  position: relative;
+  font-size: 2vmin;
+  top: 1vh;
+  left: 0.5vw;
+}
+
+
+
